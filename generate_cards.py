@@ -12,16 +12,19 @@ import math
 import re
 import collections
 
-CardType = collections.namedtuple('CardType', ['name', 'color'])
+def load_svg(fn):
+    return Rsvg.Handle.new_from_file(fn)
 
-ENDING_TYPE = CardType('Fino', 'FF40FF')
+CardType = collections.namedtuple('CardType', ['name', 'color', 'icon'])
+
+ENDING_TYPE = CardType('Fino', 'FF40FF', None)
 
 CARD_TYPE_MAP = {
-    'Event': CardType('Evento', 'FF4040'),
-    'Thing': CardType('Aĵo', '4040FF'),
-    'Aspect': CardType('Trajto', '40FF40'),
-    'Character': CardType('Rolulo', 'FFFF40'),
-    'Place': CardType('Loko', '40FFFF'),
+    'Event': CardType('Evento', 'FF4040', None),
+    'Thing': CardType('Aĵo', '4040FF', None),
+    'Aspect': CardType('Trajto', '40FF40', None),
+    'Character': CardType('Rolulo', 'FFFF40', None),
+    'Place': CardType('Loko', '40FFFF', load_svg('loko.svg')),
     'Ending': ENDING_TYPE,
 }
 
@@ -98,11 +101,21 @@ def card_title(cr, title):
     # Remove the mm scale
     cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
     cr.set_source_rgb(1, 1, 1)
-    cr.move_to((CARD_SIZE[0] - CARD_BORDER_SIZE - INSET) * POINTS_PER_MM -
+    cr.move_to((CARD_SIZE[0] - CARD_BORDER_SIZE) * POINTS_PER_MM -
                logical_rect.width,
                (CARD_BORDER_SIZE + TITLE_SIZE / 2) * POINTS_PER_MM -
                logical_rect.height / 2)
     PangoCairo.show_layout(cr, layout)
+    cr.restore()
+
+def card_icon(cr, icon):
+    dim = icon.get_dimensions()
+
+    scale = (TITLE_SIZE - CARD_BORDER_SIZE * 2) / dim.height
+    cr.save()
+    cr.translate(CARD_BORDER_SIZE, CARD_BORDER_SIZE)
+    cr.scale(scale, scale)
+    icon.render_cairo(cr)
     cr.restore()
 
 def generate_card(cr, card_type, text):
@@ -111,6 +124,9 @@ def generate_card(cr, card_type, text):
     cr.set_source_rgb(*color)
     card_border(cr)
     card_title(cr, card_type.name)
+
+    if card_type.icon:
+        card_icon(cr, card_type.icon)
 
     if card_type == ENDING_TYPE:
         font_size = 15
