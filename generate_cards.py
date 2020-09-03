@@ -14,13 +14,15 @@ import collections
 
 CardType = collections.namedtuple('CardType', ['name', 'color'])
 
+ENDING_TYPE = CardType('Fino', 'FF40FF')
+
 CARD_TYPE_MAP = {
     'Event': CardType('Evento', 'FF4040'),
     'Thing': CardType('Aĵo', '4040FF'),
     'Aspect': CardType('Trajto', '40FF40'),
     'Character': CardType('Rolulo', 'FFFF40'),
     'Place': CardType('Loko', '40FFFF'),
-    'Ending': CardType('Fino', 'FF40FF'),
+    'Ending': ENDING_TYPE,
 }
 
 POINTS_PER_MM = 2.8346457
@@ -31,7 +33,7 @@ PAGE_HEIGHT = 297
 CARDS_START = (124.0 * 210.0 / 2480.0, 194.0 * 210.0 / 2480.0)
 CARD_SIZE = (744.0 * 210.0 / 2480.0, 1039.0 * 210.0 / 2480.0)
 
-PAGE_BORDER_SIZE = 24 * 210.0 / 2480.0
+CARD_BORDER_SIZE = 12 * 210 / 2480.0
 
 CROSS_SIZE = 31 * 210.0 / 2480.0
 INSET = 5
@@ -39,13 +41,12 @@ INSET = 5
 #1012 1188
 PARAGRAPH_START = (1012 - 194) * 210 / 2480.0
 PARAGRAPH_HEIGHT = 14.903
+PARAGRAPH_END = PARAGRAPH_START + PARAGRAPH_HEIGHT
 
 current_page = 1
 
 def render_paragraph(cr, text, font = "Serif 9"):
     cr.save()
-
-    cr.set_source_rgb(100 / 255.0, 0, 0)
 
     # Remove the mm scale
     cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
@@ -64,9 +65,8 @@ def render_paragraph(cr, text, font = "Serif 9"):
     (ink_rect, logical_rect) = layout.get_pixel_extents()
 
     cr.move_to(INSET * POINTS_PER_MM,
-               (PARAGRAPH_START + PARAGRAPH_HEIGHT / 2) *
-               POINTS_PER_MM -
-               logical_rect.height / 2.0)
+               PARAGRAPH_END * POINTS_PER_MM -
+               logical_rect.height)
 
     PangoCairo.show_layout(cr, layout)
 
@@ -76,10 +76,10 @@ def render_paragraph(cr, text, font = "Serif 9"):
 
 def card_border(cr):
     cr.save()
-    cr.rectangle(-PAGE_BORDER_SIZE,
-                 -PAGE_BORDER_SIZE,
-                 CARD_SIZE[0] + PAGE_BORDER_SIZE * 2,
-                 CARD_SIZE[1] + PAGE_BORDER_SIZE * 2)
+    cr.rectangle(0, 0, *CARD_SIZE)
+    cr.rectangle(CARD_SIZE[0] - CARD_BORDER_SIZE, CARD_BORDER_SIZE,
+                 CARD_BORDER_SIZE * 2 - CARD_SIZE[0],
+                 CARD_SIZE[1] - CARD_BORDER_SIZE * 2)
     cr.fill()
     cr.restore()
 
@@ -89,7 +89,12 @@ def generate_card(cr, card_type, text):
     cr.set_source_rgb(*color)
     card_border(cr)
 
-    render_paragraph(cr, text, "Kaushan Script 9")
+    if card_type == ENDING_TYPE:
+        font_size = 15
+    else:
+        font_size = 9
+
+    render_paragraph(cr, text, "Kaushan Script {}".format(font_size))
 
 def draw_cross(cr):
     cr.save()
