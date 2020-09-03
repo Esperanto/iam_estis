@@ -35,6 +35,8 @@ CARD_SIZE = (744.0 * 210.0 / 2480.0, 1039.0 * 210.0 / 2480.0)
 
 CARD_BORDER_SIZE = 12 * 210 / 2480.0
 
+TITLE_SIZE = 12
+
 CROSS_SIZE = 31 * 210.0 / 2480.0
 INSET = 5
 
@@ -45,24 +47,28 @@ PARAGRAPH_END = PARAGRAPH_START + PARAGRAPH_HEIGHT
 
 current_page = 1
 
-def render_paragraph(cr, text, font = "Serif 9"):
-    cr.save()
-
-    # Remove the mm scale
-    cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
-
+def get_paragraph_layout(text, font):
     layout = PangoCairo.create_layout(cr)
     m = re.match(r'(.*?)([0-9]+(\.[0-9]*)?)$', font)
     font_size = float(m.group(2))
     font = m.group(1) + str(font_size)
     fd = Pango.FontDescription.from_string(font)
     layout.set_font_description(fd)
+    layout.set_text(text, -1)
+
+    return layout
+
+def render_paragraph(cr, text, font):
+    layout = get_paragraph_layout(text, font)
     layout.set_width((CARD_SIZE[0] - INSET * 2) * POINTS_PER_MM
                      * Pango.SCALE)
-    layout.set_text(text, -1)
     layout.set_alignment(Pango.Alignment.CENTER)
-
     (ink_rect, logical_rect) = layout.get_pixel_extents()
+
+    cr.save()
+
+    # Remove the mm scale
+    cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
 
     cr.move_to(INSET * POINTS_PER_MM,
                PARAGRAPH_END * POINTS_PER_MM -
@@ -77,10 +83,26 @@ def render_paragraph(cr, text, font = "Serif 9"):
 def card_border(cr):
     cr.save()
     cr.rectangle(0, 0, *CARD_SIZE)
-    cr.rectangle(CARD_SIZE[0] - CARD_BORDER_SIZE, CARD_BORDER_SIZE,
+    cr.rectangle(CARD_SIZE[0] - CARD_BORDER_SIZE,
+                 CARD_BORDER_SIZE + TITLE_SIZE,
                  CARD_BORDER_SIZE * 2 - CARD_SIZE[0],
-                 CARD_SIZE[1] - CARD_BORDER_SIZE * 2)
+                 CARD_SIZE[1] - CARD_BORDER_SIZE * 2 - TITLE_SIZE)
     cr.fill()
+    cr.restore()
+
+def card_title(cr, title):
+    layout = get_paragraph_layout(title, "Kaushan Script 9")
+    (ink_rect, logical_rect) = layout.get_pixel_extents()
+
+    cr.save()
+    # Remove the mm scale
+    cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
+    cr.set_source_rgb(1, 1, 1)
+    cr.move_to((CARD_SIZE[0] - CARD_BORDER_SIZE - INSET) * POINTS_PER_MM -
+               logical_rect.width,
+               (CARD_BORDER_SIZE + TITLE_SIZE / 2) * POINTS_PER_MM -
+               logical_rect.height / 2)
+    PangoCairo.show_layout(cr, layout)
     cr.restore()
 
 def generate_card(cr, card_type, text):
@@ -88,6 +110,7 @@ def generate_card(cr, card_type, text):
              for x in range(0, len(card_type.color), 2)]
     cr.set_source_rgb(*color)
     card_border(cr)
+    card_title(cr, card_type.name)
 
     if card_type == ENDING_TYPE:
         font_size = 15
