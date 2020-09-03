@@ -108,6 +108,17 @@ def card_title(cr, title):
     PangoCairo.show_layout(cr, layout)
     cr.restore()
 
+def card_image(cr, image):
+    dim = image.get_dimensions()
+
+    scale = (CARD_SIZE[0] - CARD_BORDER_SIZE * 4) / max(dim.width, dim.height)
+    cr.save()
+    cr.translate(CARD_SIZE[0] / 2 - dim.width * scale / 2,
+                 CARD_SIZE[1] / 2 - dim.height * scale / 2)
+    cr.scale(scale, scale)
+    image.render_cairo(cr)
+    cr.restore()
+
 def card_icon(cr, icon):
     dim = icon.get_dimensions()
 
@@ -118,12 +129,15 @@ def card_icon(cr, icon):
     icon.render_cairo(cr)
     cr.restore()
 
-def generate_card(cr, card_type, text):
+def generate_card(cr, card_type, text, image):
     color = [int(card_type.color[x : x + 2], 16) / 255
              for x in range(0, len(card_type.color), 2)]
     cr.set_source_rgb(*color)
     card_border(cr)
     card_title(cr, card_type.name)
+
+    if image:
+        card_image(cr, image)
 
     if card_type.icon:
         card_icon(cr, card_type.icon)
@@ -208,12 +222,21 @@ with open("iam_estis.csv", "rt", encoding="utf-8") as f:
         if len(text) <= 0:
             continue
 
+        image = None
+
+        try:
+            image_fn = parts[6]
+        except IndexError:
+            pass
+        else:
+            image = load_svg(image_fn)
+
         cr.save()
 
         cr.translate(card_num % 3 * CARD_SIZE[0] + CARDS_START[0],
                      card_num // 3 * CARD_SIZE[1] + CARDS_START[1])
 
-        generate_card(cr, CARD_TYPE_MAP[parts[3]], text)
+        generate_card(cr, CARD_TYPE_MAP[parts[3]], text, image)
 
         cr.restore()
 
