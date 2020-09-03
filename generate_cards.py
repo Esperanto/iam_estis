@@ -61,8 +61,8 @@ def get_paragraph_layout(text, font):
 
     return layout
 
-def render_paragraph(cr, text, font):
-    layout = get_paragraph_layout(text, font)
+def render_ending(cr, text):
+    layout = get_paragraph_layout(text, "Kaushan Script 15")
     layout.set_width((CARD_SIZE[0] - INSET * 2) * POINTS_PER_MM
                      * Pango.SCALE)
     layout.set_alignment(Pango.Alignment.CENTER)
@@ -73,15 +73,34 @@ def render_paragraph(cr, text, font):
     # Remove the mm scale
     cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
 
+    top_offset = TITLE_SIZE + CARD_BORDER_SIZE * 2
+    text_height = CARD_SIZE[1] - top_offset - CARD_BORDER_SIZE
+
     cr.move_to(INSET * POINTS_PER_MM,
+               (top_offset + text_height / 2) * POINTS_PER_MM -
+               logical_rect.height / 2)
+
+    PangoCairo.show_layout(cr, layout)
+
+    cr.restore()
+
+def render_name(cr, text):
+    layout = get_paragraph_layout(text, "Kaushan Script 11")
+    (ink_rect, logical_rect) = layout.get_pixel_extents()
+
+    cr.save()
+
+    # Remove the mm scale
+    cr.scale(1.0 / POINTS_PER_MM, 1.0 / POINTS_PER_MM)
+
+    cr.move_to(CARD_SIZE[0] / 2 * POINTS_PER_MM -
+               logical_rect.width / 2,
                PARAGRAPH_END * POINTS_PER_MM -
                logical_rect.height)
 
     PangoCairo.show_layout(cr, layout)
 
     cr.restore()
-
-    return logical_rect.height / POINTS_PER_MM
 
 def card_border(cr):
     cr.save()
@@ -143,11 +162,9 @@ def generate_card(cr, card_type, text, image):
         card_icon(cr, card_type.icon)
 
     if card_type == ENDING_TYPE:
-        font_size = 15
+        render_ending(cr, text)
     else:
-        font_size = 11
-
-    render_paragraph(cr, text, "Kaushan Script {}".format(font_size))
+        render_name(cr, text)
 
 def draw_cross(cr):
     cr.save()
