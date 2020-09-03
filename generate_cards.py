@@ -22,6 +22,7 @@ CARD_SIZE = (744.0 * 210.0 / 2480.0, 1039.0 * 210.0 / 2480.0)
 
 PAGE_BORDER_SIZE = 24 * 210.0 / 2480.0
 
+CROSS_SIZE = 31 * 210.0 / 2480.0
 INSET = 5
 
 #1012 1188
@@ -77,7 +78,47 @@ def generate_card(cr, text):
 
     render_paragraph(cr, text, "Kaushan Script 9")
 
+def draw_cross(cr):
+    cr.save()
+    cr.set_line_width(0.2)
+
+    cr.move_to(-CROSS_SIZE, 0)
+    cr.rel_line_to(CROSS_SIZE * 2, 0)
+    cr.move_to(0, -CROSS_SIZE),
+    cr.rel_line_to(0, CROSS_SIZE * 2)
+
+    cr.arc(CROSS_SIZE, CROSS_SIZE, CROSS_SIZE, math.pi, 3 * math.pi / 2)
+
+    cr.arc(CROSS_SIZE, -CROSS_SIZE,
+           CROSS_SIZE,
+           math.pi / 2, math.pi)
+
+    cr.arc(-CROSS_SIZE, -CROSS_SIZE,
+           CROSS_SIZE,
+           0, math.pi / 2)
+
+    cr.arc(-CROSS_SIZE, CROSS_SIZE,
+           CROSS_SIZE,
+           3 * math.pi / 2, math.pi * 2)
+
+    cr.stroke()
+    cr.restore()
+
 def end_page(cr):
+    for y in range(3):
+        for x in range(3):
+            for off_x in [0, CARD_SIZE[0]]:
+                if x != 2 and off_x > 0:
+                    continue
+                for off_y in [0, CARD_SIZE[1]]:
+                    if y != 2 and off_y > 0:
+                        continue
+                    cr.save()
+                    cr.translate(CARDS_START[0] + x * CARD_SIZE[0] + off_x,
+                                 CARDS_START[1] + y * CARD_SIZE[1] + off_y)
+                    draw_cross(cr)
+                    cr.restore()
+
     cr.show_page()
 
 # Make a PDF version of the cards
