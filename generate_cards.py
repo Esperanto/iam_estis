@@ -131,7 +131,7 @@ def generate_card(cr, card_type, text):
     if card_type == ENDING_TYPE:
         font_size = 15
     else:
-        font_size = 9
+        font_size = 11
 
     render_paragraph(cr, text, "Kaushan Script {}".format(font_size))
 
