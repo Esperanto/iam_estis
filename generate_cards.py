@@ -12,6 +12,17 @@ import math
 import re
 import collections
 
+CardType = collections.namedtuple('CardType', ['name', 'color'])
+
+CARD_TYPE_MAP = {
+    'Event': CardType('Evento', 'FF4040'),
+    'Thing': CardType('Aĵo', '4040FF'),
+    'Aspect': CardType('Trajto', '40FF40'),
+    'Character': CardType('Rolulo', 'FFFF40'),
+    'Place': CardType('Loko', '40FFFF'),
+    'Ending': CardType('Fino', 'FF40FF'),
+}
+
 POINTS_PER_MM = 2.8346457
 
 PAGE_WIDTH = 210
@@ -69,11 +80,13 @@ def card_border(cr):
                  -PAGE_BORDER_SIZE,
                  CARD_SIZE[0] + PAGE_BORDER_SIZE * 2,
                  CARD_SIZE[1] + PAGE_BORDER_SIZE * 2)
-    cr.set_source_rgb(100 / 255.0, 0.9, 0.9)
     cr.fill()
     cr.restore()
 
-def generate_card(cr, text):
+def generate_card(cr, card_type, text):
+    color = [int(card_type.color[x : x + 2], 16) / 255
+             for x in range(0, len(card_type.color), 2)]
+    cr.set_source_rgb(*color)
     card_border(cr)
 
     render_paragraph(cr, text, "Kaushan Script 9")
@@ -156,7 +169,7 @@ with open("iam_estis.csv", "rt", encoding="utf-8") as f:
         cr.translate(card_num % 3 * CARD_SIZE[0] + CARDS_START[0],
                      card_num // 3 * CARD_SIZE[1] + CARDS_START[1])
 
-        generate_card(cr, text)
+        generate_card(cr, CARD_TYPE_MAP[parts[3]], text)
 
         cr.restore()
 
