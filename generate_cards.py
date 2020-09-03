@@ -17,13 +17,13 @@ def load_svg(fn):
 
 CardType = collections.namedtuple('CardType', ['name', 'color', 'icon'])
 
-ENDING_TYPE = CardType('Fino', 'FF40FF', None)
+ENDING_TYPE = CardType('Fino', 'FF40FF', load_svg('fino.svg'))
 
 CARD_TYPE_MAP = {
-    'Event': CardType('Evento', 'FF4040', None),
-    'Thing': CardType('Aĵo', '4040FF', None),
-    'Aspect': CardType('Trajto', '40FF40', None),
-    'Character': CardType('Rolulo', 'FFFF40', None),
+    'Event': CardType('Evento', 'FF4040', load_svg('evento.svg')),
+    'Thing': CardType('Aĵo', '4040FF', load_svg('aĵo.svg')),
+    'Aspect': CardType('Trajto', '40FF40', load_svg('trajto.svg')),
+    'Character': CardType('Rolulo', 'FFFF40', load_svg('rolulo.svg')),
     'Place': CardType('Loko', '40FFFF', load_svg('loko.svg')),
     'Ending': ENDING_TYPE,
 }
@@ -36,7 +36,7 @@ PAGE_HEIGHT = 297
 CARDS_START = (124.0 * 210.0 / 2480.0, 194.0 * 210.0 / 2480.0)
 CARD_SIZE = (744.0 * 210.0 / 2480.0, 1039.0 * 210.0 / 2480.0)
 
-CARD_BORDER_SIZE = 12 * 210 / 2480.0
+CARD_BORDER_SIZE = 3
 
 TITLE_SIZE = 12
 
@@ -103,7 +103,7 @@ def card_title(cr, title):
     cr.set_source_rgb(1, 1, 1)
     cr.move_to((CARD_SIZE[0] - CARD_BORDER_SIZE) * POINTS_PER_MM -
                logical_rect.width,
-               (CARD_BORDER_SIZE + TITLE_SIZE / 2) * POINTS_PER_MM -
+               (CARD_BORDER_SIZE + TITLE_SIZE) / 2 * POINTS_PER_MM -
                logical_rect.height / 2)
     PangoCairo.show_layout(cr, layout)
     cr.restore()
@@ -111,7 +111,7 @@ def card_title(cr, title):
 def card_icon(cr, icon):
     dim = icon.get_dimensions()
 
-    scale = (TITLE_SIZE - CARD_BORDER_SIZE * 2) / dim.height
+    scale = (TITLE_SIZE - CARD_BORDER_SIZE) / dim.height
     cr.save()
     cr.translate(CARD_BORDER_SIZE, CARD_BORDER_SIZE)
     cr.scale(scale, scale)
