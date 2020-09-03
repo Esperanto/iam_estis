@@ -17,14 +17,14 @@ def load_svg(fn):
 
 CardType = collections.namedtuple('CardType', ['name', 'color', 'icon'])
 
-ENDING_TYPE = CardType('Fino', 'FF40FF', load_svg('fino.svg'))
+ENDING_TYPE = CardType('Fino', '252422', load_svg('fino.svg'))
 
 CARD_TYPE_MAP = {
-    'Event': CardType('Evento', 'FF4040', load_svg('evento.svg')),
-    'Thing': CardType('Aĵo', '4040FF', load_svg('aĵo.svg')),
-    'Aspect': CardType('Trajto', '40FF40', load_svg('trajto.svg')),
-    'Character': CardType('Rolulo', 'FFFF40', load_svg('rolulo.svg')),
-    'Place': CardType('Loko', '40FFFF', load_svg('loko.svg')),
+    'Event': CardType('Evento', '9A031E', load_svg('evento.svg')),
+    'Thing': CardType('Aĵo', '0F4C5C', load_svg('aĵo.svg')),
+    'Aspect': CardType('Trajto', 'E36414', load_svg('trajto.svg')),
+    'Character': CardType('Rolulo', '5F0F40', load_svg('rolulo.svg')),
+    'Place': CardType('Loko', 'FB8B24', load_svg('loko.svg')),
     'Ending': ENDING_TYPE,
 }
 
