@@ -13,7 +13,7 @@ import re
 import collections
 
 def load_svg(fn):
-    return Rsvg.Handle.new_from_file(fn)
+    return Rsvg.Handle.new_from_file('images/{}'.format(fn))
 
 CardType = collections.namedtuple('CardType', ['name', 'color', 'icon'])
 
@@ -188,7 +188,7 @@ def card_icon(cr, icon):
     cr.restore()
 
 def render_interrupt(cr, card_type):
-    with open('interrompo.svg', 'rt', encoding='utf-8') as f:
+    with open('images/interrompo.svg', 'rt', encoding='utf-8') as f:
         icon_data = f.read().replace('#ff0000', '#{}'.format(card_type.color))
 
     icon = Rsvg.Handle.new_from_data(icon_data.encode('utf-8'))
