@@ -32,6 +32,9 @@ class Card:
     class BadRow(Exception):
         pass
 
+    class BadData(Exception):
+        pass
+
     def __init__(self, row):
         parts = row.rstrip().split("\t")
 
@@ -53,6 +56,16 @@ class Card:
             self.image = load_svg(image_fn)
 
         self.type = CARD_TYPE_MAP[parts[3]]
+
+        interrupt = parts[4].strip()
+
+        if interrupt == "":
+            self.interrupt = False
+        elif interrupt == "Y":
+            self.interrupt = True
+        else:
+            raise Card.BadData("Invalid value for Interrupt “{}”".
+                               format(interrupt))
 
 POINTS_PER_MM = 2.8346457
 
@@ -174,12 +187,31 @@ def card_icon(cr, icon):
     icon.render_cairo(cr)
     cr.restore()
 
+def render_interrupt(cr, card_type):
+    with open('interrompo.svg', 'rt', encoding='utf-8') as f:
+        icon_data = f.read().replace('#ff0000', '#{}'.format(card_type.color))
+
+    icon = Rsvg.Handle.new_from_data(icon_data.encode('utf-8'))
+    dim = icon.get_dimensions()
+
+    scale = (CARD_SIZE[0] - CARD_BORDER_SIZE * 2) / dim.width
+
+    cr.save()
+    cr.translate(CARD_BORDER_SIZE,
+                 CARD_SIZE[1] / 2 - dim.height / 2 * scale)
+    cr.scale(scale, scale)
+    icon.render_cairo(cr)
+    cr.restore()
+
 def generate_card(cr, card):
     color = [int(card.type.color[x : x + 2], 16) / 255
              for x in range(0, len(card.type.color), 2)]
     cr.set_source_rgb(*color)
     card_border(cr)
     card_title(cr, card.type.name)
+
+    if card.interrupt:
+        render_interrupt(cr, card.type)
 
     if card.image:
         card_image(cr, card.image)
