@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="ŝoseo.svg"
+   id="svg5016"
+   version="1.1"
+   viewBox="0 0 580 294">
+  <metadata
+     id="metadata5022">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5020" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg5016"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="153.05111"
+     inkscape:cx="259.92394"
+     inkscape:zoom="1.3195364"
+     showgrid="false"
+     id="namedview5018"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     style="fill:#fb8b24;fill-opacity:1"
+     d="m 223.997,0 h 132 l 224,294 h -580 z"
+     id="path4996" />
+  <path
+     d="m 229.947,0 h -3.5888 L 8.0082,294 h 16.602 L 229.9502,0 Z"
+     fill="#ffffff"
+     id="path4998" />
+  <path
+     d="m 353.617,0 h -3.5576 l 205.34,294 h 16.602 L 353.6214,0 Z"
+     fill="#ffffff"
+     id="path5000" />
+  <g
+     transform="translate(-488.423,-317.3162)"
+     fill="#ffffff"
+     id="g5012">
+    <path
+       d="m 783.44,530.44 h -9.6562 l -1.625,80.875 h 12.531 l -1.25,-80.875 z"
+       id="path5002" />
+    <path
+       d="m 775.84,429.34 -1.5312,76.219 h 8.75 l -1.1562,-76.219 h -6.0625 z"
+       id="path5004" />
+    <path
+       d="m 780.94,365.47 h -3.8125 l -0.9375,45.719 h 5.4375 z"
+       id="path5006" />
+    <path
+       d="m 780.38,329.47 h -2.5312 l -0.5,24.531 h 3.4062 z"
+       id="path5008" />
+    <path
+       d="m 778.09,317.31 -0.125,6.4375 h 2.3125 l -0.0937,-6.4375 z"
+       id="path5010" />
+  </g>
+</svg>
