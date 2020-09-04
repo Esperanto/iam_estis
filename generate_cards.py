@@ -28,6 +28,32 @@ CARD_TYPE_MAP = {
     'Ending': ENDING_TYPE,
 }
 
+class Card:
+    class BadRow(Exception):
+        pass
+
+    def __init__(self, row):
+        parts = row.rstrip().split("\t")
+
+        if len(parts) < 6:
+            raise Card.BadRow
+
+        self.text = parts[5].strip()
+
+        if len(self.text) <= 0:
+            raise Card.BadCard
+
+        self.image = None
+
+        try:
+            image_fn = parts[6]
+        except IndexError:
+            pass
+        else:
+            self.image = load_svg(image_fn)
+
+        self.type = CARD_TYPE_MAP[parts[3]]
+
 POINTS_PER_MM = 2.8346457
 
 PAGE_WIDTH = 210
@@ -148,23 +174,23 @@ def card_icon(cr, icon):
     icon.render_cairo(cr)
     cr.restore()
 
-def generate_card(cr, card_type, text, image):
-    color = [int(card_type.color[x : x + 2], 16) / 255
-             for x in range(0, len(card_type.color), 2)]
+def generate_card(cr, card):
+    color = [int(card.type.color[x : x + 2], 16) / 255
+             for x in range(0, len(card.type.color), 2)]
     cr.set_source_rgb(*color)
     card_border(cr)
-    card_title(cr, card_type.name)
+    card_title(cr, card.type.name)
 
-    if image:
-        card_image(cr, image)
+    if card.image:
+        card_image(cr, card.image)
 
-    if card_type.icon:
-        card_icon(cr, card_type.icon)
+    if card.type.icon:
+        card_icon(cr, card.type.icon)
 
-    if card_type == ENDING_TYPE:
-        render_ending(cr, text)
+    if card.type == ENDING_TYPE:
+        render_ending(cr, card.text)
     else:
-        render_name(cr, text)
+        render_name(cr, card.text)
 
 def draw_cross(cr):
     cr.save()
@@ -229,31 +255,17 @@ with open("iam_estis.tsv", "rt", encoding="utf-8") as f:
         if line_num < 3:
             continue
 
-        parts = line.rstrip().split("\t")
-
-        if len(parts) < 6:
-            continue
-
-        text = parts[5].strip()
-
-        if len(text) <= 0:
-            continue
-
-        image = None
-
         try:
-            image_fn = parts[6]
-        except IndexError:
-            pass
-        else:
-            image = load_svg(image_fn)
+            card = Card(line)
+        except Card.BadRow:
+            continue
 
         cr.save()
 
         cr.translate(card_num % 3 * CARD_SIZE[0] + CARDS_START[0],
                      card_num // 3 * CARD_SIZE[1] + CARDS_START[1])
 
-        generate_card(cr, CARD_TYPE_MAP[parts[3]], text, image)
+        generate_card(cr, card)
 
         cr.restore()
 
