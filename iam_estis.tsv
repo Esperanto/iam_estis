@@ -56,21 +56,21 @@ Core - Nobility Deck	52	So they returned what was stolen to its original owner.	
 Core - Nobility Deck	53	The king fulfilled his side of the bargain and everyone was happy.	Ending		La reĝo plenumis sian flankon de la akordo kaj ĉiu kontentis.
 Core - Nobility Deck	54	The prince's madness was cured.	Ending		Oni kuracis la frenezecon de la princo.
 Core - Nobility Deck	55	Which meant they would become king and queen in the course of time.	Ending		Kaj tial ili fariĝos gereĝoj post iom da tempo.
-Core - Commoners Deck	1	Arguing	Event		Disputado
-Core - Commoners Deck	2	Sleeping	Event		Dormado
-Core - Commoners Deck	3	Falling in Love	Event		Enamiĝado
-Core - Commoners Deck	4	Making Mischief	Event		Malicumado
-Core - Commoners Deck	5	Meeting	Event		Renkontiĝado
-Core - Commoners Deck	6	Planning	Event		Planado
+Core - Commoners Deck	1	Arguing	Event		Disputado	disputado.svg
+Core - Commoners Deck	2	Sleeping	Event		Dormado	dormado.svg
+Core - Commoners Deck	3	Falling in Love	Event		Enamiĝado	enamiĝado.svg
+Core - Commoners Deck	4	Making Mischief	Event		Malicumado	malicumado.svg
+Core - Commoners Deck	5	Meeting	Event		Renkontiĝado	renkontiĝado.svg
+Core - Commoners Deck	6	Planning	Event		Planado	planado.svg
 Core - Commoners Deck	7	Parting Ways*	Event	Y	Disiĝo
 Core - Commoners Deck	8	This is Revealed*	Event	Y	Malkaŝado
-Core - Commoners Deck	9	Axe	Thing		Hakilo
-Core - Commoners Deck	10	Clothes	Thing		Vestaĵoj
-Core - Commoners Deck	11	Door	Thing		Pordo
-Core - Commoners Deck	12	Stairs	Thing		Ŝtuparo
-Core - Commoners Deck	13	Tree	Thing		Arbo
-Core - Commoners Deck	14	Wall	Thing		Muro
-Core - Commoners Deck	15	Window	Thing		Fenestro
+Core - Commoners Deck	9	Axe	Thing		Hakilo	hakilo.svg
+Core - Commoners Deck	10	Clothes	Thing		Vestaĵoj	vestaĵoj.svg
+Core - Commoners Deck	11	Door	Thing		Pordo	pordo.svg
+Core - Commoners Deck	12	Stairs	Thing		Ŝtuparo	ŝtuparo.svg
+Core - Commoners Deck	13	Tree	Thing		Arbo	arbo.svg
+Core - Commoners Deck	14	Wall	Thing		Muro	muro.svg
+Core - Commoners Deck	15	Window	Thing		Fenestro	fenestro.svg
 Core - Commoners Deck	16	Foolish	Aspect		Malsaĝa
 Core - Commoners Deck	17	Frightened	Aspect		Tima
 Core - Commoners Deck	18	Happy	Aspect		Feliĉa
