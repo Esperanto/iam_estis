@@ -4,10 +4,10 @@ Deck	Card #	Card Name	Category	Interrupt?	Traduko
 Core - Nobility Deck	1	Contest	Event		Konkurso	konkurso.svg
 Core - Nobility Deck	2	Escaping	Event		Eskapado	eskapado.svg
 Core - Nobility Deck	3	Fighting	Event		Batalado	batalado.svg
-Core - Nobility Deck	4	Chasing	Event		Ĉasado
-Core - Nobility Deck	5	Someone is Hurt	Event		Iu damaĝiĝis
-Core - Nobility Deck	6	Imprisoned	Event		Malliberiĝis
-Core - Nobility Deck	7	This Breaks	Event		Rompiĝis
+Core - Nobility Deck	4	Chasing	Event		Postkurado	postkurado.svg
+Core - Nobility Deck	5	Someone is Hurt	Event		Iu damaĝiĝis	damaĝiĝis.svg
+Core - Nobility Deck	6	Imprisoned	Event		Malliberiĝis	malliberiĝis.svg
+Core - Nobility Deck	7	This Breaks	Event		Rompiĝis	rompiĝis.svg
 Core - Nobility Deck	8	Rescued*	Event	Y	Saviĝis
 Core - Nobility Deck	9	Food	Thing		Manĝaĵo	manĝaĵo.svg
 Core - Nobility Deck	10	Ring	Thing		Ringo
