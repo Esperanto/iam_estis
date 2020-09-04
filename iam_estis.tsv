@@ -72,15 +72,15 @@ Core - Commoners Deck	13	Tree	Thing		Arbo	arbo.svg
 Core - Commoners Deck	14	Wall	Thing		Muro	muro.svg
 Core - Commoners Deck	15	Window	Thing		Fenestro	fenestro.svg
 Core - Commoners Deck	16	Foolish	Aspect		Malsaĝa
-Core - Commoners Deck	17	Frightened	Aspect		Tima
-Core - Commoners Deck	18	Happy	Aspect		Feliĉa
-Core - Commoners Deck	19	Lucky	Aspect		Bonŝanca
-Core - Commoners Deck	20	Sad	Aspect		Malfeliĉa
+Core - Commoners Deck	17	Frightened	Aspect		Tima	tima.svg
+Core - Commoners Deck	18	Happy	Aspect		Feliĉa	feliĉa.svg
+Core - Commoners Deck	19	Lucky	Aspect		Bonŝanca	bonŝanca.svg
+Core - Commoners Deck	20	Sad	Aspect		Malfeliĉa	malfeliĉa.svg
 Core - Commoners Deck	21	Ugly	Aspect		Malbela
-Core - Commoners Deck	22	Very Strong	Aspect		Tre forta
+Core - Commoners Deck	22	Very Strong	Aspect		Tre forta	forta.svg
 Core - Commoners Deck	23	Blind*	Aspect	Y	Blinda
 Core - Commoners Deck	24	Crazy*	Aspect	Y	Freneza
-Core - Commoners Deck	25	Cottage	Place		Dometo
+Core - Commoners Deck	25	Cottage	Place		Dometo	dometo.svg
 Core - Commoners Deck	26	Forest	Place		Arbaro
 Core - Commoners Deck	27	Kitchen	Place		Kuirejo
 Core - Commoners Deck	28	River	Place		Rivero
