@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="resanigita.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg4022"
+   version="1.1"
+   viewBox="0 0 121.20367 121.20316"
+   height="121.20316mm"
+   width="121.20367mm">
+  <defs
+     id="defs4016" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     fit-margin-bottom="6"
+     fit-margin-right="6"
+     fit-margin-left="6"
+     lock-margins="true"
+     fit-margin-top="6"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="366.00725"
+     inkscape:cx="269.93694"
+     inkscape:zoom="0.34566295"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata4019">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-34.412519,-51.327249)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1">
+    <path
+       transform="scale(0.26458333)"
+       d="M 293.08398,216.66992 V 357.01367 H 152.74023 V 489.0625 H 293.08398 V 629.40625 H 425.13477 V 489.0625 H 565.47852 V 357.01367 H 425.13477 V 216.66992 Z"
+       style="fill:#e36414;stroke-width:2.63433;stroke-linecap:round;stroke-linejoin:round"
+       id="rect4585" />
+  </g>
+</svg>

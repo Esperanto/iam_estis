@@ -10,18 +10,18 @@ Core - Nobility Deck	6	Imprisoned	Event		Malliberiĝis	malliberiĝis.svg
 Core - Nobility Deck	7	This Breaks	Event		Rompiĝis	rompiĝis.svg
 Core - Nobility Deck	8	Rescued*	Event	Y	Saviĝis
 Core - Nobility Deck	9	Food	Thing		Manĝaĵo	manĝaĵo.svg
-Core - Nobility Deck	10	Ring	Thing		Ringo
-Core - Nobility Deck	11	Sword	Thing		Glavo
-Core - Nobility Deck	12	Trap	Thing		Kaptilo
+Core - Nobility Deck	10	Ring	Thing		Ringo	ringo.svg
+Core - Nobility Deck	11	Sword	Thing		Glavo	glavo.svg
+Core - Nobility Deck	12	Trap	Thing		Kaptilo	trap.svg
 Core - Nobility Deck	13	Key*	Thing	Y	Ŝlosilo
 Core - Nobility Deck	14	Crown*	Thing	Y	Krono
 Core - Nobility Deck	15	Treasure*	Thing	Y	Trezoro
-Core - Nobility Deck	16	Beautiful	Aspect		Bela
+Core - Nobility Deck	16	Beautiful	Aspect		Bela	bela.svg
 Core - Nobility Deck	17	Brave	Aspect		Kuraĝa
-Core - Nobility Deck	18	Disguised	Aspect		Maskovestita
+Core - Nobility Deck	18	Disguised	Aspect		Maskovestita	maskovestita.svg
 Core - Nobility Deck	19	Hidden	Aspect		Kaŝita
-Core - Nobility Deck	20	Healed	Aspect		Resanigita
-Core - Nobility Deck	21	Stolen	Aspect		Ŝtelita
+Core - Nobility Deck	20	Healed	Aspect		Resanigita	resanigita.svg
+Core - Nobility Deck	21	Stolen	Aspect		Ŝtelita	ŝtelita.svg
 Core - Nobility Deck	22	Wise	Aspect		Saĝa
 Core - Nobility Deck	23	Secret*	Aspect	Y	Sekreta
 Core - Nobility Deck	24	City	Place		Urbo
