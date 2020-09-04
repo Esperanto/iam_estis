@@ -224,7 +224,7 @@ cr.scale(POINTS_PER_MM, POINTS_PER_MM)
 cr.set_line_width(0.5)
 
 card_num = 0
-with open("iam_estis.csv", "rt", encoding="utf-8") as f:
+with open("iam_estis.tsv", "rt", encoding="utf-8") as f:
     for line_num, line in enumerate(f):
         if line_num < 3:
             continue
