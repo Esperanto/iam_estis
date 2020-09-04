@@ -31,12 +31,12 @@ Core - Nobility Deck	27	Palace	Place		Palaco	palaco.svg
 Core - Nobility Deck	28	Road	Place		Ŝoseo	ŝoseo.svg
 Core - Nobility Deck	29	Tower	Place		Turo	turo.svg
 Core - Nobility Deck	30	Church*	Place	Y	Preĝejo
-Core - Nobility Deck	31	King	Character		Reĝo
-Core - Nobility Deck	32	Prince	Character		Princo
-Core - Nobility Deck	33	Princess	Character		Princino
-Core - Nobility Deck	34	Queen	Character		Reĝino
-Core - Nobility Deck	35	Guard	Character		Gardisto
-Core - Nobility Deck	36	Cook	Character		Kuiristo
+Core - Nobility Deck	31	King	Character		Reĝo	reĝo.svg
+Core - Nobility Deck	32	Prince	Character		Princo	princo.svg
+Core - Nobility Deck	33	Princess	Character		Princino	princino.svg
+Core - Nobility Deck	34	Queen	Character		Reĝino	reĝino.svg
+Core - Nobility Deck	35	Guard	Character		Gardisto	gardisto.svg
+Core - Nobility Deck	36	Cook	Character		Kuiristo	kuiristo.svg
 Core - Nobility Deck	37	Enemy*	Character	Y	Malamiko
 Core - Nobility Deck	38	Thief*	Character	Y	Ŝtelisto
 Core - Nobility Deck	39	And for all I know they may be dancing in the palace still.	Ending		Kaj povas esti ke oni ankoraŭ dancas en la palaco nun.
