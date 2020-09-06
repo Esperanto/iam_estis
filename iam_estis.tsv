@@ -76,21 +76,21 @@ Core - Commoners Deck	17	Frightened	Aspect		Tima	tima.svg
 Core - Commoners Deck	18	Happy	Aspect		Feliĉa	feliĉa.svg
 Core - Commoners Deck	19	Lucky	Aspect		Bonŝanca	bonŝanca.svg
 Core - Commoners Deck	20	Sad	Aspect		Malfeliĉa	malfeliĉa.svg
-Core - Commoners Deck	21	Ugly	Aspect		Malbela
+Core - Commoners Deck	21	Ugly	Aspect		Malbela	malbela.svg
 Core - Commoners Deck	22	Very Strong	Aspect		Tre forta	forta.svg
 Core - Commoners Deck	23	Blind*	Aspect	Y	Blinda
 Core - Commoners Deck	24	Crazy*	Aspect	Y	Freneza
 Core - Commoners Deck	25	Cottage	Place		Dometo	dometo.svg
 Core - Commoners Deck	26	Forest	Place		Arbaro	arbaro.svg
-Core - Commoners Deck	27	Kitchen	Place		Kuirejo
-Core - Commoners Deck	28	River	Place		Rivero
-Core - Commoners Deck	29	Village	Place		Vilaĝo
+Core - Commoners Deck	27	Kitchen	Place		Kuirejo	kuirejo.svg
+Core - Commoners Deck	28	River	Place		Rivero	rivero.svg
+Core - Commoners Deck	29	Village	Place		Vilaĝo	vilaĝo.svg
 Core - Commoners Deck	30	Home*	Place	Y	Hejmo
-Core - Commoners Deck	31	Beggar	Character		Almozulo
-Core - Commoners Deck	32	Brother or Sister	Character		Frato aŭ fratino
-Core - Commoners Deck	33	Child	Character		Infano
-Core - Commoners Deck	34	Stepmother	Character		Bopatrino
-Core - Commoners Deck	35	Parent	Character		Patro aŭ patrino
+Core - Commoners Deck	31	Beggar	Character		Almozulo	almozulo.svg
+Core - Commoners Deck	32	Brother or Sister	Character		Frato aŭ fratino	gefratoj.svg
+Core - Commoners Deck	33	Child	Character		Infano	infano.svg
+Core - Commoners Deck	34	Stepmother	Character		Bopatrino	bopatrino.svg
+Core - Commoners Deck	35	Parent	Character		Patro aŭ patrino	parento.svg
 Core - Commoners Deck	36	Husband or Wife*	Character	Y	Edzo aŭ edzino
 Core - Commoners Deck	37	Old Person*	Character	Y	Maljunulo
 Core - Commoners Deck	38	Orphan*	Character	Y	Orfo
@@ -111,9 +111,9 @@ Core - Commoners Deck	52	So they changed places and everything was back to norma
 Core - Commoners Deck	53	So they promised never to fight again.	Ending		Do ili promesis neniam plu batali.
 Core - Commoners Deck	54	Which proves that a heart that is brave and true will always triumph in the end.	Ending		Kio pruvas ke koro kuraĝa kaj vera ĉiam venkos ja la fino.
 Core - Commoners Deck	55	Which proves you should always be careful when choosing your companions.	Ending		Kio pruvas ke oni devas ĉiam zorge elekti siajn kunulojn.
-Core - Outsiders Deck	1	Lost	Event		Perdiĝis
-Core - Outsiders Deck	2	Found	Event		Troviĝis
-Core - Outsiders Deck	3	Journey	Event		Vojaĝo
+Core - Outsiders Deck	1	Lost	Event		Perdiĝis	perdiĝis.svg
+Core - Outsiders Deck	2	Found	Event		Troviĝis	troviĝis.svg
+Core - Outsiders Deck	3	Journey	Event		Vojaĝo	vojaĝo.svg
 Core - Outsiders Deck	4	This Comes Alive	Event		Ĝi ekvivas
 Core - Outsiders Deck	5	Storm	Event		Ŝtormo
 Core - Outsiders Deck	6	Time Passes	Event		Tempo pasas
