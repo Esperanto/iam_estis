@@ -114,19 +114,19 @@ Core - Commoners Deck	55	Which proves you should always be careful when choosing
 Core - Outsiders Deck	1	Lost	Event		Perdiĝis	perdiĝis.svg
 Core - Outsiders Deck	2	Found	Event		Troviĝis	troviĝis.svg
 Core - Outsiders Deck	3	Journey	Event		Vojaĝo	vojaĝo.svg
-Core - Outsiders Deck	4	This Comes Alive	Event		Ĝi ekvivas
-Core - Outsiders Deck	5	Storm	Event		Ŝtormo
-Core - Outsiders Deck	6	Time Passes	Event		Tempo pasas
-Core - Outsiders Deck	7	Transforming	Event		Transformiĝo
+Core - Outsiders Deck	4	This Comes Alive	Event		Ĝi ekvivas	ekvivas.svg
+Core - Outsiders Deck	5	Storm	Event		Ŝtormo	ŝtormo.svg
+Core - Outsiders Deck	6	Time Passes	Event		Tempo pasas	sablohorloĝo.svg
+Core - Outsiders Deck	7	Transforming	Event		Transformiĝo	transformiĝo.svg
 Core - Outsiders Deck	8	Dying*	Event	Y	Mortado
 Core - Outsiders Deck	9	Returned*	Event	Y	Reveno
-Core - Outsiders Deck	10	Book	Thing		Libro
-Core - Outsiders Deck	11	Cauldron	Thing		Kaldrono
-Core - Outsiders Deck	12	Fire	Thing		Fajro
-Core - Outsiders Deck	13	Spell	Thing		Sorĉo
-Core - Outsiders Deck	14	A Well	Thing		Puto
+Core - Outsiders Deck	10	Book	Thing		Libro	libro.svg
+Core - Outsiders Deck	11	Cauldron	Thing		Kaldrono	kaldrono.svg
+Core - Outsiders Deck	12	Fire	Thing		Fajro	fajro.svg
+Core - Outsiders Deck	13	Spell	Thing		Sorĉo	sorĉo.svg
+Core - Outsiders Deck	14	A Well	Thing		Puto	puto.svg
 Core - Outsiders Deck	15	Gift*	Thing	Y	Donaco
-Core - Outsiders Deck	16	Cursed	Aspect		Malbenita
+Core - Outsiders Deck	16	Cursed	Aspect		Malbenita	malbenita.svg
 Core - Outsiders Deck	17	Poisoned	Aspect		Venenita
 Core - Outsiders Deck	18	This Can Fly	Aspect		Ĝi povas flugi
 Core - Outsiders Deck	19	This Can Talk	Aspect		Ĝi povas paroli
