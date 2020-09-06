@@ -17,9 +17,9 @@ Core - Nobility Deck	13	Key*	Thing	Y	Ŝlosilo
 Core - Nobility Deck	14	Crown*	Thing	Y	Krono
 Core - Nobility Deck	15	Treasure*	Thing	Y	Trezoro
 Core - Nobility Deck	16	Beautiful	Aspect		Bela	bela.svg
-Core - Nobility Deck	17	Brave	Aspect		Kuraĝa
+Core - Nobility Deck	17	Brave	Aspect		Kuraĝa	kuraĝa.svg
 Core - Nobility Deck	18	Disguised	Aspect		Maskovestita	maskovestita.svg
-Core - Nobility Deck	19	Hidden	Aspect		Kaŝita
+Core - Nobility Deck	19	Hidden	Aspect		Kaŝita	kaŝita.svg
 Core - Nobility Deck	20	Healed	Aspect		Resanigita	resanigita.svg
 Core - Nobility Deck	21	Stolen	Aspect		Ŝtelita	ŝtelita.svg
 Core - Nobility Deck	22	Wise	Aspect		Saĝa	saĝa.svg
@@ -81,7 +81,7 @@ Core - Commoners Deck	22	Very Strong	Aspect		Tre forta	forta.svg
 Core - Commoners Deck	23	Blind*	Aspect	Y	Blinda
 Core - Commoners Deck	24	Crazy*	Aspect	Y	Freneza
 Core - Commoners Deck	25	Cottage	Place		Dometo	dometo.svg
-Core - Commoners Deck	26	Forest	Place		Arbaro
+Core - Commoners Deck	26	Forest	Place		Arbaro	arbaro.svg
 Core - Commoners Deck	27	Kitchen	Place		Kuirejo
 Core - Commoners Deck	28	River	Place		Rivero
 Core - Commoners Deck	29	Village	Place		Vilaĝo
