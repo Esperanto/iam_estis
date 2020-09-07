@@ -284,7 +284,7 @@ cr.set_line_width(0.5)
 card_num = 0
 with open("iam_estis.tsv", "rt", encoding="utf-8") as f:
     for line_num, line in enumerate(f):
-        if line_num < 3:
+        if line_num < 1:
             continue
 
         try:

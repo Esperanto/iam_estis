@@ -1,6 +1,4 @@
-Once Upon a Time (3rd Edition) - Card List					
-					
-Deck	Card #	Card Name	Category	Interrupt?	Traduko
+Deck	Card #	Card Name	Category	Interrupt?	Traduko	Bildo
 Core - Nobility Deck	1	Contest	Event		Konkurso	konkurso.svg
 Core - Nobility Deck	2	Escaping	Event		Eskapo	eskapado.svg
 Core - Nobility Deck	3	Fighting	Event		Batalo	batalado.svg
@@ -8,14 +6,14 @@ Core - Nobility Deck	4	Chasing	Event		Postkurado	postkurado.svg
 Core - Nobility Deck	5	Someone is Hurt	Event		Iu damaĝiĝis	damaĝiĝis.svg
 Core - Nobility Deck	6	Imprisoned	Event		Malliberiĝis	malliberiĝis.svg
 Core - Nobility Deck	7	This Breaks	Event		Rompiĝis	rompiĝis.svg
-Core - Nobility Deck	8	Rescued*	Event	Y	Saviĝis
+Core - Nobility Deck	8	Rescued*	Event	Y	Saviĝis	
 Core - Nobility Deck	9	Food	Thing		Manĝaĵo	manĝaĵo.svg
 Core - Nobility Deck	10	Ring	Thing		Ringo	ringo.svg
 Core - Nobility Deck	11	Sword	Thing		Glavo	glavo.svg
 Core - Nobility Deck	12	Trap	Thing		Kaptilo	trap.svg
-Core - Nobility Deck	13	Key*	Thing	Y	Ŝlosilo
-Core - Nobility Deck	14	Crown*	Thing	Y	Krono
-Core - Nobility Deck	15	Treasure*	Thing	Y	Trezoro
+Core - Nobility Deck	13	Key*	Thing	Y	Ŝlosilo	
+Core - Nobility Deck	14	Crown*	Thing	Y	Krono	
+Core - Nobility Deck	15	Treasure*	Thing	Y	Trezoro	
 Core - Nobility Deck	16	Beautiful	Aspect		Bela	bela.svg
 Core - Nobility Deck	17	Brave	Aspect		Kuraĝa	kuraĝa.svg
 Core - Nobility Deck	18	Disguised	Aspect		Maskovestita	maskovestita.svg
@@ -23,47 +21,47 @@ Core - Nobility Deck	19	Hidden	Aspect		Kaŝita	kaŝita.svg
 Core - Nobility Deck	20	Healed	Aspect		Resanigita	resanigita.svg
 Core - Nobility Deck	21	Stolen	Aspect		Ŝtelita	ŝtelita.svg
 Core - Nobility Deck	22	Wise	Aspect		Saĝa	saĝa.svg
-Core - Nobility Deck	23	Secret*	Aspect	Y	Sekreta
+Core - Nobility Deck	23	Secret*	Aspect	Y	Sekreta	
 Core - Nobility Deck	24	City	Place		Urbo	urbo.svg
 Core - Nobility Deck	25	Dungeon	Place		Kelkarcero	kelkarcero.svg
 Core - Nobility Deck	26	Garden	Place		Ĝardeno	ĝardeno.svg
 Core - Nobility Deck	27	Palace	Place		Palaco	palaco.svg
 Core - Nobility Deck	28	Road	Place		Ŝoseo	ŝoseo.svg
 Core - Nobility Deck	29	Tower	Place		Turo	turo.svg
-Core - Nobility Deck	30	Church*	Place	Y	Preĝejo
+Core - Nobility Deck	30	Church*	Place	Y	Preĝejo	
 Core - Nobility Deck	31	King	Character		Reĝo	reĝo.svg
 Core - Nobility Deck	32	Prince	Character		Princo	princo.svg
 Core - Nobility Deck	33	Princess	Character		Princino	princino.svg
 Core - Nobility Deck	34	Queen	Character		Reĝino	reĝino.svg
 Core - Nobility Deck	35	Guard	Character		Gardisto	gardisto.svg
 Core - Nobility Deck	36	Cook	Character		Kuiristo	kuiristo.svg
-Core - Nobility Deck	37	Enemy*	Character	Y	Malamiko
-Core - Nobility Deck	38	Thief*	Character	Y	Ŝtelisto
-Core - Nobility Deck	39	And for all I know they may be dancing in the palace still.	Ending		Kaj povas esti ke oni ankoraŭ dancas en la palaco nun.
-Core - Nobility Deck	40	And the kingdom rejoiced at the end of the tyrant's reign.	Ending		Kaj la reĝlando ĝojis pro la fino de la regno de la tirano.
-Core - Nobility Deck	41	Despite his terrible crime, the king agreed to spare his life.	Ending		Malgraŭ lia terura krimo, la reĝo konsentis ŝpari lian vivon.
-Core - Nobility Deck	42	Her courage had made her rich.	Ending		Ŝia kuraĝo riĉigis ŝin.
-Core - Nobility Deck	43	She escaped that awful place and fled home.	Ending		Ŝi eskapis tiun aĉan lokon kaj fuĝis hejmen.
-Core - Nobility Deck	44	She never let her treasure out of her sight again.	Ending		Ŝi neniam plu lasis sian trezoron ekster sia vido.
-Core - Nobility Deck	45	So he told her he was the prince and they lived happily ever after.	Ending		Do li diris al ŝi ke li estas la princo kaj ili vivis ĝoje porĉiame.
-Core - Nobility Deck	46	So she revealed her true identity and they were married.	Ending		Do ŝi malkaŝis sian veran identecon kaj ili geedziĝis.
-Core - Nobility Deck	47	So the cook prepared it for the feast and it was delicious.	Ending		Do la kuiristo kuiris ĝin por la festeno kaj ĝi estas tre bongusta.
-Core - Nobility Deck	48	So the king relented and the two were married.	Ending		Do la reĝo cedis kaj la du homoj geedziĝis.
-Core - Nobility Deck	49	So the queen gave them the prize as she had promised.	Ending		Do la reĝino donis al ili la premion kiel ŝi promesis.
-Core - Nobility Deck	50	So the rightful ruler was placed on the throne once more.	Ending		Do oni metis la ĝustan reganton sur la tronon denove.
-Core - Nobility Deck	51	So they escaped their captors and fled home.	Ending		Do ili eskapis siajn kaptintojn kaj fuĝis hejmen.
-Core - Nobility Deck	52	So they returned what was stolen to its original owner.	Ending		Do ili redonis tion kion oni ŝtelis al ĝia originala posedanto.
-Core - Nobility Deck	53	The king fulfilled his side of the bargain and everyone was happy.	Ending		La reĝo plenumis sian flankon de la akordo kaj ĉiu kontentis.
-Core - Nobility Deck	54	The prince's madness was cured.	Ending		Oni kuracis la frenezecon de la princo.
-Core - Nobility Deck	55	Which meant they would become king and queen in the course of time.	Ending		Kaj tial ili fariĝos gereĝoj post iom da tempo.
+Core - Nobility Deck	37	Enemy*	Character	Y	Malamiko	
+Core - Nobility Deck	38	Thief*	Character	Y	Ŝtelisto	
+Core - Nobility Deck	39	And for all I know they may be dancing in the palace still.	Ending		Kaj povas esti ke oni ankoraŭ dancas en la palaco nun.	
+Core - Nobility Deck	40	And the kingdom rejoiced at the end of the tyrant's reign.	Ending		Kaj la reĝlando ĝojis pro la fino de la regno de la tirano.	
+Core - Nobility Deck	41	Despite his terrible crime, the king agreed to spare his life.	Ending		Malgraŭ lia terura krimo, la reĝo konsentis ŝpari lian vivon.	
+Core - Nobility Deck	42	Her courage had made her rich.	Ending		Ŝia kuraĝo riĉigis ŝin.	
+Core - Nobility Deck	43	She escaped that awful place and fled home.	Ending		Ŝi eskapis tiun aĉan lokon kaj fuĝis hejmen.	
+Core - Nobility Deck	44	She never let her treasure out of her sight again.	Ending		Ŝi neniam plu lasis sian trezoron ekster sia vido.	
+Core - Nobility Deck	45	So he told her he was the prince and they lived happily ever after.	Ending		Do li diris al ŝi ke li estas la princo kaj ili vivis ĝoje porĉiame.	
+Core - Nobility Deck	46	So she revealed her true identity and they were married.	Ending		Do ŝi malkaŝis sian veran identecon kaj ili geedziĝis.	
+Core - Nobility Deck	47	So the cook prepared it for the feast and it was delicious.	Ending		Do la kuiristo kuiris ĝin por la festeno kaj ĝi estas tre bongusta.	
+Core - Nobility Deck	48	So the king relented and the two were married.	Ending		Do la reĝo cedis kaj la du homoj geedziĝis.	
+Core - Nobility Deck	49	So the queen gave them the prize as she had promised.	Ending		Do la reĝino donis al ili la premion kiel ŝi promesis.	
+Core - Nobility Deck	50	So the rightful ruler was placed on the throne once more.	Ending		Do oni metis la ĝustan reganton sur la tronon denove.	
+Core - Nobility Deck	51	So they escaped their captors and fled home.	Ending		Do ili eskapis siajn kaptintojn kaj fuĝis hejmen.	
+Core - Nobility Deck	52	So they returned what was stolen to its original owner.	Ending		Do ili redonis tion kion oni ŝtelis al ĝia originala posedanto.	
+Core - Nobility Deck	53	The king fulfilled his side of the bargain and everyone was happy.	Ending		La reĝo plenumis sian flankon de la akordo kaj ĉiu kontentis.	
+Core - Nobility Deck	54	The prince's madness was cured.	Ending		Oni kuracis la frenezecon de la princo.	
+Core - Nobility Deck	55	Which meant they would become king and queen in the course of time.	Ending		Kaj tial ili fariĝos gereĝoj post iom da tempo.	
 Core - Commoners Deck	1	Arguing	Event		Disputo	disputado.svg
 Core - Commoners Deck	2	Sleeping	Event		Dormado	dormado.svg
 Core - Commoners Deck	3	Falling in Love	Event		Enamiĝo	enamiĝado.svg
 Core - Commoners Deck	4	Making Mischief	Event		Malicumado	malicumado.svg
 Core - Commoners Deck	5	Meeting	Event		Renkontiĝo	renkontiĝado.svg
 Core - Commoners Deck	6	Planning	Event		Planado	planado.svg
-Core - Commoners Deck	7	Parting Ways*	Event	Y	Disiĝo
-Core - Commoners Deck	8	This is Revealed*	Event	Y	Malkaŝado
+Core - Commoners Deck	7	Parting Ways*	Event	Y	Disiĝo	
+Core - Commoners Deck	8	This is Revealed*	Event	Y	Malkaŝado	
 Core - Commoners Deck	9	Axe	Thing		Hakilo	hakilo.svg
 Core - Commoners Deck	10	Clothes	Thing		Vestaĵoj	vestaĵoj.svg
 Core - Commoners Deck	11	Door	Thing		Pordo	pordo.svg
@@ -78,39 +76,39 @@ Core - Commoners Deck	19	Lucky	Aspect		Bonŝanca	bonŝanca.svg
 Core - Commoners Deck	20	Sad	Aspect		Malfeliĉa	malfeliĉa.svg
 Core - Commoners Deck	21	Ugly	Aspect		Malbela	malbela.svg
 Core - Commoners Deck	22	Very Strong	Aspect		Tre forta	forta.svg
-Core - Commoners Deck	23	Blind*	Aspect	Y	Blinda
-Core - Commoners Deck	24	Crazy*	Aspect	Y	Freneza
+Core - Commoners Deck	23	Blind*	Aspect	Y	Blinda	
+Core - Commoners Deck	24	Crazy*	Aspect	Y	Freneza	
 Core - Commoners Deck	25	Cottage	Place		Dometo	dometo.svg
 Core - Commoners Deck	26	Forest	Place		Arbaro	arbaro.svg
 Core - Commoners Deck	27	Kitchen	Place		Kuirejo	kuirejo.svg
 Core - Commoners Deck	28	River	Place		Rivero	rivero.svg
 Core - Commoners Deck	29	Village	Place		Vilaĝo	vilaĝo.svg
-Core - Commoners Deck	30	Home*	Place	Y	Hejmo
+Core - Commoners Deck	30	Home*	Place	Y	Hejmo	
 Core - Commoners Deck	31	Beggar	Character		Almozulo	almozulo.svg
 Core - Commoners Deck	32	Brother or Sister	Character		Frato aŭ fratino	gefratoj.svg
 Core - Commoners Deck	33	Child	Character		Infano	infano.svg
 Core - Commoners Deck	34	Stepmother	Character		Bopatrino	bopatrino.svg
 Core - Commoners Deck	35	Parent	Character		Patro aŭ patrino	parento.svg
-Core - Commoners Deck	36	Husband or Wife*	Character	Y	Edzo aŭ edzino
-Core - Commoners Deck	37	Old Person*	Character	Y	Maljunulo
-Core - Commoners Deck	38	Orphan*	Character	Y	Orfo
-Core - Commoners Deck	39	And his mother was delighted with such an unusual gift.	Ending		Kaj lia patrino feliĉis pro tiel malkutima donaco.
-Core - Commoners Deck	40	And she kept her father's advice in mind from that day onwards.	Ending		Kaj ŝi sekvis la konsilon de sia patro ekde tiu tago porĉiame.
-Core - Commoners Deck	41	And so the old woman's prophecy had been fulfilled.	Ending		Kaj tial la profetaĵo de la maljunulino plenumiĝis.
-Core - Commoners Deck	42	And the parents were reunited with their long-lost child.	Ending		Kaj la gepatroj reunuiĝis kun sia delonge perdita infano.
-Core - Commoners Deck	43	And they remained blind for the rest of their days for their wickedness and falsehood.	Ending		Kaj ili restis blindaj dum la cetero de siaj vivoj pro siaj malico kaj malveremo.
-Core - Commoners Deck	44	And when they died they passed it on to their children.	Ending		Kaj kiam ili mortis ili transdonis ĝin al siaj infanoj.
-Core - Commoners Deck	45	He lived the rest of his life as a beggar … which was perfectly just.	Ending		Li vivis dum la cetero de sia vivo kiel almozulo, kio estis perfekte justa.
-Core - Commoners Deck	46	He saw the error of his ways and lived a good life from that day forward.	Ending		Li konstatis la erarojn de sia konduto kaj ekvivis bonkondute ekde tiu tago.
-Core - Commoners Deck	47	His wound was healed but his heart remained broken forever.	Ending		Lia vundo resaniĝis sed lia koro ĉiam restis rompita.
-Core - Commoners Deck	48	It just shows that stepmothers aren't always what they seem.	Ending		Tio simple montras ke bopatrinoj ne ĉiam estas tiaj kiaj ili aspektas.
-Core - Commoners Deck	49	So he forgave her and they were married.	Ending		Do li pardonis ŝin kaj ili geedziĝis.
-Core - Commoners Deck	50	So he realized how loyal his sister had been.	Ending		Do li konstatis kiel fidela estis lia fratino.
-Core - Commoners Deck	51	So the village was restored to prosperity.	Ending		Do la vilaĝo refariĝis prospera.
-Core - Commoners Deck	52	So they changed places and everything was back to normal.	Ending		Do ili interŝanĝis rolojn kaj ĉio refariĝis normala.
-Core - Commoners Deck	53	So they promised never to fight again.	Ending		Do ili promesis neniam plu batali.
-Core - Commoners Deck	54	Which proves that a heart that is brave and true will always triumph in the end.	Ending		Kio pruvas ke koro kuraĝa kaj vera ĉiam venkos je la fino.
-Core - Commoners Deck	55	Which proves you should always be careful when choosing your companions.	Ending		Kio pruvas ke oni devas ĉiam zorge elekti siajn kunulojn.
+Core - Commoners Deck	36	Husband or Wife*	Character	Y	Edzo aŭ edzino	
+Core - Commoners Deck	37	Old Person*	Character	Y	Maljunulo	
+Core - Commoners Deck	38	Orphan*	Character	Y	Orfo	
+Core - Commoners Deck	39	And his mother was delighted with such an unusual gift.	Ending		Kaj lia patrino feliĉis pro tiel malkutima donaco.	
+Core - Commoners Deck	40	And she kept her father's advice in mind from that day onwards.	Ending		Kaj ŝi sekvis la konsilon de sia patro ekde tiu tago porĉiame.	
+Core - Commoners Deck	41	And so the old woman's prophecy had been fulfilled.	Ending		Kaj tial la profetaĵo de la maljunulino plenumiĝis.	
+Core - Commoners Deck	42	And the parents were reunited with their long-lost child.	Ending		Kaj la gepatroj reunuiĝis kun sia delonge perdita infano.	
+Core - Commoners Deck	43	And they remained blind for the rest of their days for their wickedness and falsehood.	Ending		Kaj ili restis blindaj dum la cetero de siaj vivoj pro siaj malico kaj malveremo.	
+Core - Commoners Deck	44	And when they died they passed it on to their children.	Ending		Kaj kiam ili mortis ili transdonis ĝin al siaj infanoj.	
+Core - Commoners Deck	45	He lived the rest of his life as a beggar … which was perfectly just.	Ending		Li vivis dum la cetero de sia vivo kiel almozulo, kio estis perfekte justa.	
+Core - Commoners Deck	46	He saw the error of his ways and lived a good life from that day forward.	Ending		Li konstatis la erarojn de sia konduto kaj ekvivis bonkondute ekde tiu tago.	
+Core - Commoners Deck	47	His wound was healed but his heart remained broken forever.	Ending		Lia vundo resaniĝis sed lia koro ĉiam restis rompita.	
+Core - Commoners Deck	48	It just shows that stepmothers aren't always what they seem.	Ending		Tio simple montras ke bopatrinoj ne ĉiam estas tiaj kiaj ili aspektas.	
+Core - Commoners Deck	49	So he forgave her and they were married.	Ending		Do li pardonis ŝin kaj ili geedziĝis.	
+Core - Commoners Deck	50	So he realized how loyal his sister had been.	Ending		Do li konstatis kiel fidela estis lia fratino.	
+Core - Commoners Deck	51	So the village was restored to prosperity.	Ending		Do la vilaĝo refariĝis prospera.	
+Core - Commoners Deck	52	So they changed places and everything was back to normal.	Ending		Do ili interŝanĝis rolojn kaj ĉio refariĝis normala.	
+Core - Commoners Deck	53	So they promised never to fight again.	Ending		Do ili promesis neniam plu batali.	
+Core - Commoners Deck	54	Which proves that a heart that is brave and true will always triumph in the end.	Ending		Kio pruvas ke koro kuraĝa kaj vera ĉiam venkos je la fino.	
+Core - Commoners Deck	55	Which proves you should always be careful when choosing your companions.	Ending		Kio pruvas ke oni devas ĉiam zorge elekti siajn kunulojn.	
 Core - Outsiders Deck	1	Lost	Event		Perdiĝis	perdiĝis.svg
 Core - Outsiders Deck	2	Found	Event		Troviĝis	troviĝis.svg
 Core - Outsiders Deck	3	Journey	Event		Vojaĝo	vojaĝo.svg
@@ -118,29 +116,29 @@ Core - Outsiders Deck	4	This Comes Alive	Event		Ĝi ekvivas	ekvivas.svg
 Core - Outsiders Deck	5	Storm	Event		Ŝtormo	ŝtormo.svg
 Core - Outsiders Deck	6	Time Passes	Event		Tempo pasas	sablohorloĝo.svg
 Core - Outsiders Deck	7	Transforming	Event		Transformiĝo	transformiĝo.svg
-Core - Outsiders Deck	8	Dying*	Event	Y	Mortado
-Core - Outsiders Deck	9	Returned*	Event	Y	Reveno
+Core - Outsiders Deck	8	Dying*	Event	Y	Mortado	
+Core - Outsiders Deck	9	Returned*	Event	Y	Reveno	
 Core - Outsiders Deck	10	Book	Thing		Libro	libro.svg
 Core - Outsiders Deck	11	Cauldron	Thing		Kaldrono	kaldrono.svg
 Core - Outsiders Deck	12	Fire	Thing		Fajro	fajro.svg
 Core - Outsiders Deck	13	Spell	Thing		Sorĉo	sorĉo.svg
 Core - Outsiders Deck	14	A Well	Thing		Puto	puto.svg
-Core - Outsiders Deck	15	Gift*	Thing	Y	Donaco
+Core - Outsiders Deck	15	Gift*	Thing	Y	Donaco	
 Core - Outsiders Deck	16	Cursed	Aspect		Malbenita	malbenita.svg
 Core - Outsiders Deck	17	Poisoned	Aspect		Venenita	venenita.svg
 Core - Outsiders Deck	18	This Can Fly	Aspect		Ĝi povas flugi	flugi.svg
 Core - Outsiders Deck	19	This Can Talk	Aspect		Ĝi povas paroli	parolas.svg
 Core - Outsiders Deck	20	Tiny	Aspect		Malgrandega	malgrandega.svg
 Core - Outsiders Deck	21	Wicked	Aspect		Malica	malica.svg
-Core - Outsiders Deck	22	Far Away*	Aspect	Y	Fora
-Core - Outsiders Deck	23	Long-lost*	Aspect	Y	Delonge perdita
+Core - Outsiders Deck	22	Far Away*	Aspect	Y	Fora	
+Core - Outsiders Deck	23	Long-lost*	Aspect	Y	Delonge perdita	
 Core - Outsiders Deck	24	Cave	Place		Kaverno	kaverno.svg
 Core - Outsiders Deck	25	In the Sky	Place		En la ĉielo	ĉielo.svg
 Core - Outsiders Deck	26	Mountain	Place		Monto	monto.svg
 Core - Outsiders Deck	27	Night	Place		Nokto	nokto.svg
 Core - Outsiders Deck	28	Swamp	Place		Marĉo	marĉo.svg
-Core - Outsiders Deck	29	Kingdom*	Place	Y	Reĝlando
-Core - Outsiders Deck	30	Ruin*	Place	Y	Ruino
+Core - Outsiders Deck	29	Kingdom*	Place	Y	Reĝlando	
+Core - Outsiders Deck	30	Ruin*	Place	Y	Ruino	
 Core - Outsiders Deck	31	Fairy	Character		Feo	feo.svg
 Core - Outsiders Deck	32	Giant	Character		Giganto	giganto.svg
 Core - Outsiders Deck	33	Wolf	Character		Lupo	lupo.svg
@@ -149,185 +147,185 @@ Core - Outsiders Deck	35	Horse	Character		Ĉevalo	ĉevalo.svg
 Core - Outsiders Deck	36	Monster	Character		Monstro	monstro.svg
 Core - Outsiders Deck	37	Dragon	Character		Drako	drako.svg
 Core - Outsiders Deck	38	Witch	Character		Sorĉistino	sorĉistino.svg
-Core - Outsiders Deck	39	And as long as she lived it could never be removed.	Ending		Kaj ekde tiam dum la cetero de ŝia vivo oni neniam povis forpreni ĝin.
-Core - Outsiders Deck	40	And so the witch perished in her own cauldron.	Ending		Kaj la sorĉistino pereis en sia propra kaldrono.
-Core - Outsiders Deck	41	Beaten, the foul creature was driven out of the kingdom.	Ending		Venkite, la aĉa estaĵo forpeliĝis de la reĝlando.
-Core - Outsiders Deck	42	But no matter how hard they searched they were never able to find it again.	Ending		Sed malgraŭ ĉia provo serĉi, ili neniam plu povis trovi ĝin.
-Core - Outsiders Deck	43	Every day he saw the result of his disobedience, and wept.	Ending		Ĉiutage li vidis la rezulton de sia malobeo kaj ploris.
-Core - Outsiders Deck	44	He was freed from his enchantment and the next day they wept.	Ending		Li liberiĝis de sia sorĉo kaj la sekvan tagon ili ploris.
-Core - Outsiders Deck	45	So it was transformed back into human form.	Ending		Do ĝi transformiĝis al homa formo.
-Core - Outsiders Deck	46	So she knew that her visitor had been a monster all along.	Ending		Do ŝi eksciis ke ŝia vizitanto estis monstro ekde la komenco.
-Core - Outsiders Deck	47	So the evil-doers were thrown down a well.	Ending		Do oni ĵetis la malbonulojn en puton.
-Core - Outsiders Deck	48	So the spell was broken and they were free.	Ending		Do la sorĉo ĉesis kaj ili estis liberaj.
-Core - Outsiders Deck	49	The curse was lifted as had been foretold.	Ending		La malbeno finiĝis kiel oni antaŭdiris.
-Core - Outsiders Deck	50	The flames rose higher and the wicked place was destroyed.	Ending		La flamoj plialtiĝis kaj la aĉa loko detruiĝis.
-Core - Outsiders Deck	51	The monster was destroyed and the city was safe once more.	Ending		Oni detruis la monstron kaj la urbo denove estis sekura.
-Core - Outsiders Deck	52	They were buried in the same grave, and the kingdom mourned them.	Ending		Oni enterigis ilin en la saman tombon, kaj la reĝlando funebris ilin.
-Core - Outsiders Deck	53	True love had broken the enchantment.	Ending		Vera amo rompis la sorĉon.
-Core - Outsiders Deck	54	Which is how the kingdom got such an unusual name.	Ending		Kaj pro tio la reĝlando havis tiel malkutiman nomon.
-Core - Outsiders Deck	55	With the enemy dead they could get married at last.	Ending		Pro la mortinta malamiko ili finfine povis geedziĝi.
-Enchanting Tales	1	Mistaken Identity	Event		
-Enchanting Tales	2	Dancing	Event		
-Enchanting Tales	3	Making Friends	Event		
-Enchanting Tales	4	Someone Disobeys	Event		
-Enchanting Tales	5	A Promise	Event		
-Enchanting Tales	6	Singing	Event		
-Enchanting Tales	7	Someone Forgets*	Event	Y	
-Enchanting Tales	8	Heartbroken*	Event	Y	
-Enchanting Tales	9	Broom	Thing		
-Enchanting Tales	10	Hard Work	Thing		
-Enchanting Tales	11	Potion	Thing		
-Enchanting Tales	12	Fine Clothes	Thing		
-Enchanting Tales	13	Mirror	Thing		
-Enchanting Tales	14	Shoe	Thing		
-Enchanting Tales	15	Kiss*	Thing	Y	
-Enchanting Tales	16	Jewels*	Thing	Y	
-Enchanting Tales	17	Poor	Aspect		
-Enchanting Tales	18	Dressed in Rags	Aspect		
-Enchanting Tales	19	Jealous	Aspect		
-Enchanting Tales	20	Lonely	Aspect		
-Enchanting Tales	21	Fat	Aspect		
-Enchanting Tales	22	Skinny	Aspect		
-Enchanting Tales	23	Dreaming*	Aspect	Y	
-Enchanting Tales	24	Wealthy*	Aspect	Y	
-Enchanting Tales	25	Bridge	Place		
-Enchanting Tales	26	Bedchamber	Place		
-Enchanting Tales	27	Ballroom	Place		
-Enchanting Tales	28	Underground	Place		
-Enchanting Tales	29	Stables	Place		
-Enchanting Tales	30	Throne Room*	Place	Y	
-Enchanting Tales	31	Dawn*	Place	Y	
-Enchanting Tales	32	Dwarf	Character		
-Enchanting Tales	33	Bird	Character		
-Enchanting Tales	34	Unicorn	Character		
-Enchanting Tales	35	Godmother	Character		
-Enchanting Tales	36	Stepsister	Character		
-Enchanting Tales	37	Ogre*	Character	Y	
-Enchanting Tales	38	Woodsman*	Character	Y	
-Enchanting Tales	39	His broken heart was mended.	Ending		
-Enchanting Tales	40	The enchanted item saved them all.	Ending		
-Enchanting Tales	41	The mirror cracked and all her evil was undone.	Ending		
-Enchanting Tales	42	The monster was shown to have a kind heart after all.	Ending		
-Enchanting Tales	43	And that is how they escaped their imprisonment.	Ending		
-Enchanting Tales	44	The disobedient sister was punished at long last.	Ending		
-Enchanting Tales	45	The wondrous beast went back to its forest home and they never saw it again.	Ending		
-Enchanting Tales	46	The potion finally restored his memory.	Ending		
-Enchanting Tales	47	And the hideous beast was transformed into a handsome prince.	Ending		
-Enchanting Tales	48	And the whole city rejoiced because of that kiss.	Ending		
-Enchanting Tales	49	So they were married at last and all the kingdom rejoiced.	Ending		
-Enchanting Tales	50	But he kept it a secret, as he had promised.	Ending		
-Enchanting Tales	51	But he scorned the princess and asked the poor servant to marry him.	Ending		
-Enchanting Tales	52	But they never again took any advice from a fairy.	Ending		
-Enchanting Tales	53	Despite his hideous form, she grew to love him.	Ending		
-Enchanting Tales	54	Which is how a simple maid came to be queen of this land.	Ending		
-Enchanting Tales	55	She wore the same jewel on the day they were married.	Ending		
-Seafaring Tales	1	Weather Change	Event		
-Seafaring Tales	2	Swimming	Event		
-Seafaring Tales	3	Someone is Exiled	Event		
-Seafaring Tales	4	Swallowed Whole	Event		
-Seafaring Tales	5	Stowing Away	Event		
-Seafaring Tales	6	Shipwrecked*	Event	Y	
-Seafaring Tales	7	Drowning*	Event	Y	
-Seafaring Tales	8	Chest	Thing		
-Seafaring Tales	9	Boat	Thing		
-Seafaring Tales	10	Raft	Thing		
-Seafaring Tales	11	Pirate Ship	Thing		
-Seafaring Tales	12	Stars	Thing		
-Seafaring Tales	13	Map	Thing		
-Seafaring Tales	14	Knife*	Thing	Y	
-Seafaring Tales	15	Bottle*	Thing	Y	
-Seafaring Tales	16	Deserted	Aspect		
-Seafaring Tales	17	Diseased	Aspect		
-Seafaring Tales	18	Breathing Water	Aspect		
-Seafaring Tales	19	Missing a Limb	Aspect		
-Seafaring Tales	20	Washed Ashore	Aspect		
-Seafaring Tales	21	Unconscious*	Aspect	Y	
-Seafaring Tales	22	Buried*	Aspect	Y	
-Seafaring Tales	23	Tavern	Place		
-Seafaring Tales	24	Island	Place		
-Seafaring Tales	25	At Sea	Place		
-Seafaring Tales	26	Port	Place		
-Seafaring Tales	27	Beach	Place		
-Seafaring Tales	28	Underwater	Place		
-Seafaring Tales	29	Foreign Land*	Place	Y	
-Seafaring Tales	30	Cliffs*	Place	Y	
-Seafaring Tales	31	Sea Serpent	Character		
-Seafaring Tales	32	Mermaid	Character		
-Seafaring Tales	33	Pirate	Character		
-Seafaring Tales	34	Captain	Character		
-Seafaring Tales	35	Rat	Character		
-Seafaring Tales	36	Fish	Character		
-Seafaring Tales	37	Fisherman*	Character	Y	
-Seafaring Tales	38	Sailor*	Character	Y	
-Seafaring Tales	39	This strange creature saved him from a watery grave.	Ending		
-Seafaring Tales	40	They proved themselves to the captain, who took them back home.	Ending		
-Seafaring Tales	41	She had lost everything in the storm except her true friend.	Ending		
-Seafaring Tales	42	Even though the ship was lost, he had made his fortune.	Ending		
-Seafaring Tales	43	With the disease cured, the island became rich once again.	Ending		
-Seafaring Tales	44	He sat on the beach and thought of the treasure he had lost.	Ending		
-Seafaring Tales	45	Then she realized her love had returned from that foreign land, as he had promised.	Ending		
-Seafaring Tales	46	Which is how she came to be queen of that barbaric island.	Ending		
-Seafaring Tales	47	They dug up the chest, but the treasure was long gone.	Ending		
-Seafaring Tales	48	They clung tightly and it carried them all the way home.	Ending		
-Seafaring Tales	49	The terrible sea monster destroyed the boat, and all but one of the sailors was drowned.	Ending		
-Seafaring Tales	50	But she chose to stay with the pirates.	Ending		
-Seafaring Tales	51	And they swam back together to her kingdom beneath the sea.	Ending		
-Seafaring Tales	52	With its treasure returned, the monster was never seen again.	Ending		
-Seafaring Tales	53	The king ordered the island to be removed from all maps so no-one could ever go there again.	Ending		
-Seafaring Tales	54	So he became the most feared pirate in history.	Ending		
-Seafaring Tales	55	So she became the richest merchant in all the world.	Ending		
-Knightly Tales	1	Quest	Event		
-Knightly Tales	2	Breaking a Vow	Event		
-Knightly Tales	3	Battle	Event		
-Knightly Tales	4	Siege	Event		
-Knightly Tales	5	Jousting	Event		
-Knightly Tales	6	Betrayal	Event		
-Knightly Tales	7	Challenge	Event	Y	
-Knightly Tales	8	Ransomed	Event	Y	
-Knightly Tales	9	Armor	Thing		
-Knightly Tales	10	Lance	Thing		
-Knightly Tales	11	Shield	Thing		
-Knightly Tales	12	Love token	Thing		
-Knightly Tales	13	Moat	Thing		
-Knightly Tales	14	Relic	Thing	Y	
-Knightly Tales	15	Drawbridge	Thing	Y	
-Knightly Tales	16	Angry	Aspect		
-Knightly Tales	17	Unarmed	Aspect		
-Knightly Tales	18	Reckless	Aspect		
-Knightly Tales	19	Cowardly	Aspect		
-Knightly Tales	20	Holy	Aspect		
-Knightly Tales	21	Merciful	Aspect	Y	
-Knightly Tales	22	Dishonored	Aspect	Y	
-Knightly Tales	23	Castle	Place		
-Knightly Tales	24	Manor	Place		
-Knightly Tales	25	Pavilion	Place		
-Knightly Tales	26	Tournament Field	Place		
-Knightly Tales	27	Tomb	Place		
-Knightly Tales	28	Border	Place		
-Knightly Tales	29	Battlefield	Place	Y	
-Knightly Tales	30	Shrine	Place	Y	
-Knightly Tales	31	Knight	Character		
-Knightly Tales	32	Squire	Character		
-Knightly Tales	33	Herald	Character		
-Knightly Tales	34	Bandit	Character		
-Knightly Tales	35	Lady Love	Character		
-Knightly Tales	36	Wizard	Character		
-Knightly Tales	37	Army	Character	Y	
-Knightly Tales	38	Priest	Character	Y	
-Knightly Tales	39	Because of her skill with a lance, women were allowed to become knights from then on.	Ending		
-Knightly Tales	40	His lady love touched the relic to his lips and he was healed.	Ending		
-Knightly Tales	41	He won back his weapons and armor through his skill and cunning.	Ending		
-Knightly Tales	42	Because of her holiness, the terrible war was finally ended.	Ending		
-Knightly Tales	43	He continued to wear her symbol on his shield from that day onward.	Ending		
-Knightly Tales	44	Because of his recklessness, his betrayal was revealed.	Ending		
-Knightly Tales	45	Although she was unarmed, she defeated that mighty opponent and won back her manor.	Ending		
-Knightly Tales	46	And so the squire overcame his cowardice and saved the day.	Ending		
-Knightly Tales	47	The herald said it was the strangest joust ever seen in that land.	Ending		
-Knightly Tales	48	Her quest was completed and her castle was repaired at last.	Ending		
-Knightly Tales	49	Because the vow had been broken, the battle was lost.	Ending		
-Knightly Tales	50	He proved his love for her by winning the joust.	Ending		
-Knightly Tales	51	Her courage drove the bandits away and saved the man she loved.	Ending		
-Knightly Tales	52	The queen banished the wizard and had the tomb restored to its former glory.	Ending		
-Knightly Tales	53	The search revealed the stolen love token in his pavilion, and he was punished.	Ending		
-Knightly Tales	54	The priest's clever solution resolved the border dispute, and so their anger faded.	Ending		
-Knightly Tales	55	They finally overcame the castle's defenses, and so the long siege ended.	Ending		
+Core - Outsiders Deck	39	And as long as she lived it could never be removed.	Ending		Kaj ekde tiam dum la cetero de ŝia vivo oni neniam povis forpreni ĝin.	
+Core - Outsiders Deck	40	And so the witch perished in her own cauldron.	Ending		Kaj la sorĉistino pereis en sia propra kaldrono.	
+Core - Outsiders Deck	41	Beaten, the foul creature was driven out of the kingdom.	Ending		Venkite, la aĉa estaĵo forpeliĝis de la reĝlando.	
+Core - Outsiders Deck	42	But no matter how hard they searched they were never able to find it again.	Ending		Sed malgraŭ ĉia provo serĉi, ili neniam plu povis trovi ĝin.	
+Core - Outsiders Deck	43	Every day he saw the result of his disobedience, and wept.	Ending		Ĉiutage li vidis la rezulton de sia malobeo kaj ploris.	
+Core - Outsiders Deck	44	He was freed from his enchantment and the next day they wept.	Ending		Li liberiĝis de sia sorĉo kaj la sekvan tagon ili ploris.	
+Core - Outsiders Deck	45	So it was transformed back into human form.	Ending		Do ĝi transformiĝis al homa formo.	
+Core - Outsiders Deck	46	So she knew that her visitor had been a monster all along.	Ending		Do ŝi eksciis ke ŝia vizitanto estis monstro ekde la komenco.	
+Core - Outsiders Deck	47	So the evil-doers were thrown down a well.	Ending		Do oni ĵetis la malbonulojn en puton.	
+Core - Outsiders Deck	48	So the spell was broken and they were free.	Ending		Do la sorĉo ĉesis kaj ili estis liberaj.	
+Core - Outsiders Deck	49	The curse was lifted as had been foretold.	Ending		La malbeno finiĝis kiel oni antaŭdiris.	
+Core - Outsiders Deck	50	The flames rose higher and the wicked place was destroyed.	Ending		La flamoj plialtiĝis kaj la aĉa loko detruiĝis.	
+Core - Outsiders Deck	51	The monster was destroyed and the city was safe once more.	Ending		Oni detruis la monstron kaj la urbo denove estis sekura.	
+Core - Outsiders Deck	52	They were buried in the same grave, and the kingdom mourned them.	Ending		Oni enterigis ilin en la saman tombon, kaj la reĝlando funebris ilin.	
+Core - Outsiders Deck	53	True love had broken the enchantment.	Ending		Vera amo rompis la sorĉon.	
+Core - Outsiders Deck	54	Which is how the kingdom got such an unusual name.	Ending		Kaj pro tio la reĝlando havis tiel malkutiman nomon.	
+Core - Outsiders Deck	55	With the enemy dead they could get married at last.	Ending		Pro la mortinta malamiko ili finfine povis geedziĝi.	
+Enchanting Tales	1	Mistaken Identity	Event			
+Enchanting Tales	2	Dancing	Event			
+Enchanting Tales	3	Making Friends	Event			
+Enchanting Tales	4	Someone Disobeys	Event			
+Enchanting Tales	5	A Promise	Event			
+Enchanting Tales	6	Singing	Event			
+Enchanting Tales	7	Someone Forgets*	Event	Y		
+Enchanting Tales	8	Heartbroken*	Event	Y		
+Enchanting Tales	9	Broom	Thing			
+Enchanting Tales	10	Hard Work	Thing			
+Enchanting Tales	11	Potion	Thing			
+Enchanting Tales	12	Fine Clothes	Thing			
+Enchanting Tales	13	Mirror	Thing			
+Enchanting Tales	14	Shoe	Thing			
+Enchanting Tales	15	Kiss*	Thing	Y		
+Enchanting Tales	16	Jewels*	Thing	Y		
+Enchanting Tales	17	Poor	Aspect			
+Enchanting Tales	18	Dressed in Rags	Aspect			
+Enchanting Tales	19	Jealous	Aspect			
+Enchanting Tales	20	Lonely	Aspect			
+Enchanting Tales	21	Fat	Aspect			
+Enchanting Tales	22	Skinny	Aspect			
+Enchanting Tales	23	Dreaming*	Aspect	Y		
+Enchanting Tales	24	Wealthy*	Aspect	Y		
+Enchanting Tales	25	Bridge	Place			
+Enchanting Tales	26	Bedchamber	Place			
+Enchanting Tales	27	Ballroom	Place			
+Enchanting Tales	28	Underground	Place			
+Enchanting Tales	29	Stables	Place			
+Enchanting Tales	30	Throne Room*	Place	Y		
+Enchanting Tales	31	Dawn*	Place	Y		
+Enchanting Tales	32	Dwarf	Character			
+Enchanting Tales	33	Bird	Character			
+Enchanting Tales	34	Unicorn	Character			
+Enchanting Tales	35	Godmother	Character			
+Enchanting Tales	36	Stepsister	Character			
+Enchanting Tales	37	Ogre*	Character	Y		
+Enchanting Tales	38	Woodsman*	Character	Y		
+Enchanting Tales	39	His broken heart was mended.	Ending			
+Enchanting Tales	40	The enchanted item saved them all.	Ending			
+Enchanting Tales	41	The mirror cracked and all her evil was undone.	Ending			
+Enchanting Tales	42	The monster was shown to have a kind heart after all.	Ending			
+Enchanting Tales	43	And that is how they escaped their imprisonment.	Ending			
+Enchanting Tales	44	The disobedient sister was punished at long last.	Ending			
+Enchanting Tales	45	The wondrous beast went back to its forest home and they never saw it again.	Ending			
+Enchanting Tales	46	The potion finally restored his memory.	Ending			
+Enchanting Tales	47	And the hideous beast was transformed into a handsome prince.	Ending			
+Enchanting Tales	48	And the whole city rejoiced because of that kiss.	Ending			
+Enchanting Tales	49	So they were married at last and all the kingdom rejoiced.	Ending			
+Enchanting Tales	50	But he kept it a secret, as he had promised.	Ending			
+Enchanting Tales	51	But he scorned the princess and asked the poor servant to marry him.	Ending			
+Enchanting Tales	52	But they never again took any advice from a fairy.	Ending			
+Enchanting Tales	53	Despite his hideous form, she grew to love him.	Ending			
+Enchanting Tales	54	Which is how a simple maid came to be queen of this land.	Ending			
+Enchanting Tales	55	She wore the same jewel on the day they were married.	Ending			
+Seafaring Tales	1	Weather Change	Event			
+Seafaring Tales	2	Swimming	Event			
+Seafaring Tales	3	Someone is Exiled	Event			
+Seafaring Tales	4	Swallowed Whole	Event			
+Seafaring Tales	5	Stowing Away	Event			
+Seafaring Tales	6	Shipwrecked*	Event	Y		
+Seafaring Tales	7	Drowning*	Event	Y		
+Seafaring Tales	8	Chest	Thing			
+Seafaring Tales	9	Boat	Thing			
+Seafaring Tales	10	Raft	Thing			
+Seafaring Tales	11	Pirate Ship	Thing			
+Seafaring Tales	12	Stars	Thing			
+Seafaring Tales	13	Map	Thing			
+Seafaring Tales	14	Knife*	Thing	Y		
+Seafaring Tales	15	Bottle*	Thing	Y		
+Seafaring Tales	16	Deserted	Aspect			
+Seafaring Tales	17	Diseased	Aspect			
+Seafaring Tales	18	Breathing Water	Aspect			
+Seafaring Tales	19	Missing a Limb	Aspect			
+Seafaring Tales	20	Washed Ashore	Aspect			
+Seafaring Tales	21	Unconscious*	Aspect	Y		
+Seafaring Tales	22	Buried*	Aspect	Y		
+Seafaring Tales	23	Tavern	Place			
+Seafaring Tales	24	Island	Place			
+Seafaring Tales	25	At Sea	Place			
+Seafaring Tales	26	Port	Place			
+Seafaring Tales	27	Beach	Place			
+Seafaring Tales	28	Underwater	Place			
+Seafaring Tales	29	Foreign Land*	Place	Y		
+Seafaring Tales	30	Cliffs*	Place	Y		
+Seafaring Tales	31	Sea Serpent	Character			
+Seafaring Tales	32	Mermaid	Character			
+Seafaring Tales	33	Pirate	Character			
+Seafaring Tales	34	Captain	Character			
+Seafaring Tales	35	Rat	Character			
+Seafaring Tales	36	Fish	Character			
+Seafaring Tales	37	Fisherman*	Character	Y		
+Seafaring Tales	38	Sailor*	Character	Y		
+Seafaring Tales	39	This strange creature saved him from a watery grave.	Ending			
+Seafaring Tales	40	They proved themselves to the captain, who took them back home.	Ending			
+Seafaring Tales	41	She had lost everything in the storm except her true friend.	Ending			
+Seafaring Tales	42	Even though the ship was lost, he had made his fortune.	Ending			
+Seafaring Tales	43	With the disease cured, the island became rich once again.	Ending			
+Seafaring Tales	44	He sat on the beach and thought of the treasure he had lost.	Ending			
+Seafaring Tales	45	Then she realized her love had returned from that foreign land, as he had promised.	Ending			
+Seafaring Tales	46	Which is how she came to be queen of that barbaric island.	Ending			
+Seafaring Tales	47	They dug up the chest, but the treasure was long gone.	Ending			
+Seafaring Tales	48	They clung tightly and it carried them all the way home.	Ending			
+Seafaring Tales	49	The terrible sea monster destroyed the boat, and all but one of the sailors was drowned.	Ending			
+Seafaring Tales	50	But she chose to stay with the pirates.	Ending			
+Seafaring Tales	51	And they swam back together to her kingdom beneath the sea.	Ending			
+Seafaring Tales	52	With its treasure returned, the monster was never seen again.	Ending			
+Seafaring Tales	53	The king ordered the island to be removed from all maps so no-one could ever go there again.	Ending			
+Seafaring Tales	54	So he became the most feared pirate in history.	Ending			
+Seafaring Tales	55	So she became the richest merchant in all the world.	Ending			
+Knightly Tales	1	Quest	Event			
+Knightly Tales	2	Breaking a Vow	Event			
+Knightly Tales	3	Battle	Event			
+Knightly Tales	4	Siege	Event			
+Knightly Tales	5	Jousting	Event			
+Knightly Tales	6	Betrayal	Event			
+Knightly Tales	7	Challenge	Event	Y		
+Knightly Tales	8	Ransomed	Event	Y		
+Knightly Tales	9	Armor	Thing			
+Knightly Tales	10	Lance	Thing			
+Knightly Tales	11	Shield	Thing			
+Knightly Tales	12	Love token	Thing			
+Knightly Tales	13	Moat	Thing			
+Knightly Tales	14	Relic	Thing	Y		
+Knightly Tales	15	Drawbridge	Thing	Y		
+Knightly Tales	16	Angry	Aspect			
+Knightly Tales	17	Unarmed	Aspect			
+Knightly Tales	18	Reckless	Aspect			
+Knightly Tales	19	Cowardly	Aspect			
+Knightly Tales	20	Holy	Aspect			
+Knightly Tales	21	Merciful	Aspect	Y		
+Knightly Tales	22	Dishonored	Aspect	Y		
+Knightly Tales	23	Castle	Place			
+Knightly Tales	24	Manor	Place			
+Knightly Tales	25	Pavilion	Place			
+Knightly Tales	26	Tournament Field	Place			
+Knightly Tales	27	Tomb	Place			
+Knightly Tales	28	Border	Place			
+Knightly Tales	29	Battlefield	Place	Y		
+Knightly Tales	30	Shrine	Place	Y		
+Knightly Tales	31	Knight	Character			
+Knightly Tales	32	Squire	Character			
+Knightly Tales	33	Herald	Character			
+Knightly Tales	34	Bandit	Character			
+Knightly Tales	35	Lady Love	Character			
+Knightly Tales	36	Wizard	Character			
+Knightly Tales	37	Army	Character	Y		
+Knightly Tales	38	Priest	Character	Y		
+Knightly Tales	39	Because of her skill with a lance, women were allowed to become knights from then on.	Ending			
+Knightly Tales	40	His lady love touched the relic to his lips and he was healed.	Ending			
+Knightly Tales	41	He won back his weapons and armor through his skill and cunning.	Ending			
+Knightly Tales	42	Because of her holiness, the terrible war was finally ended.	Ending			
+Knightly Tales	43	He continued to wear her symbol on his shield from that day onward.	Ending			
+Knightly Tales	44	Because of his recklessness, his betrayal was revealed.	Ending			
+Knightly Tales	45	Although she was unarmed, she defeated that mighty opponent and won back her manor.	Ending			
+Knightly Tales	46	And so the squire overcame his cowardice and saved the day.	Ending			
+Knightly Tales	47	The herald said it was the strangest joust ever seen in that land.	Ending			
+Knightly Tales	48	Her quest was completed and her castle was repaired at last.	Ending			
+Knightly Tales	49	Because the vow had been broken, the battle was lost.	Ending			
+Knightly Tales	50	He proved his love for her by winning the joust.	Ending			
+Knightly Tales	51	Her courage drove the bandits away and saved the man she loved.	Ending			
+Knightly Tales	52	The queen banished the wizard and had the tomb restored to its former glory.	Ending			
+Knightly Tales	53	The search revealed the stolen love token in his pavilion, and he was punished.	Ending			
+Knightly Tales	54	The priest's clever solution resolved the border dispute, and so their anger faded.	Ending			
+Knightly Tales	55	They finally overcame the castle's defenses, and so the long siege ended.	Ending			
