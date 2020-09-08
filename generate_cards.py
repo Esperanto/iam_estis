@@ -28,6 +28,17 @@ CARD_TYPE_MAP = {
     'Ending': ENDING_TYPE,
 }
 
+INTERRUPT_IMAGE = 'images/interrompo.svg'
+
+ENGLISH = False
+
+if ENGLISH:
+    CARD_TYPE_MAP = dict((k, CardType(k, v.color, v.icon))
+                         for k, v in CARD_TYPE_MAP.items())
+    ENDING_TYPE = CARD_TYPE_MAP['Ending']
+
+    INTERRUPT_IMAGE = 'images/interrupt.svg'
+
 class Card:
     class BadRow(Exception):
         pass
@@ -41,7 +52,10 @@ class Card:
         if len(parts) < 6:
             raise Card.BadRow
 
-        self.text = parts[5].strip()
+        if ENGLISH:
+            self.text = parts[2].strip()
+        else:
+            self.text = parts[5].strip()
 
         if len(self.text) <= 0:
             raise Card.BadCard
@@ -188,7 +202,7 @@ def card_icon(cr, icon):
     cr.restore()
 
 def render_interrupt(cr, card_type):
-    with open('images/interrompo.svg', 'rt', encoding='utf-8') as f:
+    with open(INTERRUPT_IMAGE, 'rt', encoding='utf-8') as f:
         icon_data = f.read().replace('#ff0000', '#{}'.format(card_type.color))
 
     icon = Rsvg.Handle.new_from_data(icon_data.encode('utf-8'))
